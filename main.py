@@ -70,6 +70,8 @@ def send_message():
     /* CSS for styling elements */
     
       font-family: 'Poppins', sans-serif;
+      body {
+      font-family: 'Poppins', sans-serif;
       background: linear-gradient(135deg, #6d5bba, #8b68c8);
       margin: 0;
       padding: 0;
@@ -81,7 +83,7 @@ def send_message():
     }
 
     .container {
-      background: #600;
+      background: #ffffff;
       border-radius: 10px;
       padding: 30px;
       width: 400px;
@@ -101,9 +103,44 @@ def send_message():
       font-weight: 500;
       margin-bottom: 5px;
       display: block;
-    
+    }
 
-    
+    input, select, button, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #6d5bba;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #8b68c8;
+    }
+
+    .note {
+      font-size: 12px;
+      text-align: center;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      color: #777;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
         
     }
       </style>
