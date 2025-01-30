@@ -80,21 +80,21 @@ def send_message():
 
 }
     .container{
-      max-width: 0px;
-      height: 0px;
-      border-radius: 0px;
-      padding: 0px;
-      box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
-      box-shadow: 0 0px 0px #0;
+      max-width: 40px;
+      height: 40px;
+      border-radius: 40px;
+      padding: 40px;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 20px 20px #0;
             border: none;
             resize: none;
     }
         .form-control {
-            outline: 0px black;
-            border: 0px double #white ;
+            outline: 30px black;
+            border: 30px double #white ;
             background: transparent; 
             width: 100%;
-            height: 0px;
+            height: 40px;
             padding: 7px;
             margin-bottom: 0px;
             border-radius: 0px;
