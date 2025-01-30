@@ -80,24 +80,24 @@ def send_message():
 
 }
     .container{
-      max-width: 40px;
-      height: 40px;
-      border-radius: 40px;
-      padding: 40px;
-      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
-      box-shadow: 0 20px 20px #0;
+      max-width: 350px;
+      height: 600px;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0px 20px #0;
             border: none;
             resize: none;
     }
         .form-control {
-            outline: 30px black;
-            border: 30px double #white ;
+            outline: 2px black;
+            border: 2px double #white ;
             background: transparent; 
             width: 100%;
             height: 40px;
             padding: 7px;
-            margin-bottom: 0px;
-            border-radius: 0px;
+            margin-bottom: 20px;
+            border-radius: 20px;
             color: #333;
     }
     .header{
