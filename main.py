@@ -87,7 +87,7 @@ def send_message():
       padding: 30px;
       width: 400px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      color: #444;
+      color: #333;
     }
 
     h1 {
