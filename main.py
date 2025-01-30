@@ -72,8 +72,8 @@ def send_message():
     
     
         body{
-    background: #121212;
-            color: #8888;
+    background: #44444;
+            color: #orange;
     background-size: cover;
     background-repeat: no-repeat;
     color: #White;
