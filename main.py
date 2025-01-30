@@ -69,58 +69,79 @@ def send_message():
   <style>
     /* CSS for styling elements */
     
-    
-    
-        body{
-    background: #44444;
-            color: #orange;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #White;
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #6d5bba, #8b68c8);
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
 
-}
-    .container{
-      max-width: 400px;
-      height: 600px;
+    .container {
+      background: #ffffff;
       border-radius: 10px;
       padding: 30px;
+      width: 400px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      box-shadow: 0 10px 20px #0;
-            border: none;
-            resize: none;
+      color: #333;
     }
-        .form-control {
-            outline: 2px black;
-            border: 2px double #white ;
-            background: transparent; 
-            width: 100%;
-            height: 40px;
-            padding: 7px;
-            margin-bottom: 20px;
-            border-radius: 20px;
-            color: #444;
-    }
-    .header{
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
       text-align: center;
-      padding-bottom: 20px;
+      margin-bottom: 20px;
     }
-    .btn-submit{
+
+    label {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    input, select, button, textarea {
       width: 100%;
-      margin-top: 10px;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
     }
-    .footer{
+
+    button {
+      background-color: #6d5bba;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #8b68c8;
+    }
+
+    .note {
+      font-size: 12px;
       text-align: center;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      color: #777;
+    }
+
+    footer {
       margin-top: 20px;
-      color: #green;
-    }
-    .whatsapp-link {
-      display: inline-block;
-      color: #green;
-      text-decoration: none;
-      margin-top: 10px;
-    }
-    .whatsapp-link i {
-      margin-right: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+    
+        
     }
       </style>
 </head>
