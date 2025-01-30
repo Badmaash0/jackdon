@@ -68,79 +68,59 @@ def send_message():
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     /* CSS for styling elements */
-    
-      font-family: 'Poppins', sans-serif;
-      body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #6d5bba, #8b68c8);
-      margin: 0;
-      padding: 0;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+    body { 
+    background: #44444;
+            color: #orange;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #White;
 
-    .container {
-      background: #ffffff;
+}
+    .container{
+      max-width: 400px;
+      height: 600px;
       border-radius: 10px;
       padding: 30px;
-      width: 400px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      color: #333;
+      box-shadow: 0 10px 20px #0;
+            border: none;
+            resize: none;
     }
-
-    h1 {
-      font-size: 24px;
-      font-weight: 600;
+        .form-control {
+            outline: 2px black;
+            border: 2px double #white ;
+            background: transparent; 
+            width: 100%;
+            height: 40px;
+            padding: 7px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            color: #444;
+    }
+    .header{
       text-align: center;
-      margin-bottom: 20px;
+      padding-bottom: 20px;
     }
-
-    label {
-      font-size: 14px;
-      font-weight: 500;
-      margin-bottom: 5px;
-      display: block;
-    }
-
-    input, select, button, textarea {
+    .btn-submit{
       width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 14px;
+      margin-top: 10px;
     }
-
-    button {
-      background-color: #6d5bba;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
-      font-weight: 600;
-      transition: background 0.3s ease;
-    }
-
-    button:hover {
-      background-color: #8b68c8;
-    }
-
-    .note {
-      font-size: 12px;
+    .footer{
       text-align: center;
-      margin-top: -10px;
-      margin-bottom: 10px;
-      color: #777;
-    }
-
-    footer {
       margin-top: 20px;
-      text-align: center;
-      font-size: 12px;
-      color: #aaa;
+      color: #green;
+    }
+    .whatsapp-link {
+      display: inline-block;
+      color: #green;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    .whatsapp-link i {
+      margin-right: 10px;
+    }
+      
+
         
     }
       </style>
