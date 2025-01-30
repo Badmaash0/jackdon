@@ -76,7 +76,7 @@ def send_message():
             color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #333;
+    color: #White;
 
 }
     .container{
@@ -90,8 +90,8 @@ def send_message():
             resize: none;
     }
         .form-control {
-            outline: 10px white;
-            border: 10px double #333 ;
+            outline: 10px black;
+            border: 10px double #white ;
             background: transparent; 
             width: 100%;
             height: 40px;
@@ -111,11 +111,11 @@ def send_message():
     .footer{
       text-align: center;
       margin-top: 20px;
-      color: #8b68c8;
+      color: #green;
     }
     .whatsapp-link {
       display: inline-block;
-      color: #8b68c8;
+      color: #green;
       text-decoration: none;
       margin-top: 10px;
     }
