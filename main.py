@@ -98,7 +98,7 @@ def send_message():
             padding: 7px;
             margin-bottom: 20px;
             border-radius: 20px;
-            color: #333;
+            color: #444;
     }
     .header{
       text-align: center;
@@ -126,7 +126,7 @@ def send_message():
 </head>
 <body>
   <header class="header mt-4">
-  <h1 class="mt-3">J9CK BADMASH</h1>
+  <h1 class="mt-3"></h1>
   </header>
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data">
