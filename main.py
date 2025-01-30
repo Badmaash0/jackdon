@@ -72,8 +72,8 @@ def send_message():
     
     
         body{
-    background: linear-gradient(135deg, #6d5bba, #8b68c8);
-            color: #fff;
+    background: #121212;
+            color: #8888;
     background-size: cover;
     background-repeat: no-repeat;
     color: #White;
