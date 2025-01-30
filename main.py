@@ -150,17 +150,12 @@ def send_message():
         <label for="txtFile" class="form-label">  𝐓𝐄𝐗𝐓  𝐅𝐈𝐋𝐄 </label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" required>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">sᴛᴀʀᴛ sᴇɴᴅɪɴɢ ᴍᴇssᴀɢᴇs</button>
+      <button type="submit" class="btn btn-primary btn-submit"><<<<<<START>>>>>></button>
     </form>
     <form method="post" action="/stop">
-      <button type="submit" class="btn btn-danger btn-submit mt-3">sᴛᴏᴘ sᴇɴᴅɪɴɢ ᴍᴇssᴀɢᴇs ᴇ</button>
+      <button type="submit" class="btn btn-danger btn-submit mt-3">STOP</button>
     </form>
   </div>
-  <footer class="footer">
-    <p>&copy; 2025 Owner jack badmash xd  <a href="https://www.facebook.com/share/18UAvDwTnL/">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴀʙᴏᴏᴋ</a></p>
-    <div class="mb-3">
-      <a href="https://wa.me/916360448086" class="whatsapp-link">
-        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
    z   </a>
     </div>
   </footer>
