@@ -63,7 +63,7 @@ def send_message():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>⫷ THE JACK ⫸</title>
+  <title> THE JACK </title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
@@ -72,11 +72,11 @@ def send_message():
     
     
         body{
-    background-color: #121212;
-            color: #eee;
+    background: linear-gradient(135deg, #6d5bba, #8b68c8);
+            color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #333;
 
 }
     .container{
@@ -84,21 +84,21 @@ def send_message():
       height: 600px;
       border-radius: 20px;
       padding: 20px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 0 15px white;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 10px 20px #333;
             border: none;
             resize: none;
     }
         .form-control {
-            outline: 1px red;
-            border: 1px double white ;
+            outline: 10px white;
+            border: 10px double #333 ;
             background: transparent; 
             width: 100%;
             height: 40px;
             padding: 7px;
             margin-bottom: 20px;
             border-radius: 10px;
-            color: white;
+            color: #333;
     }
     .header{
       text-align: center;
@@ -111,43 +111,43 @@ def send_message():
     .footer{
       text-align: center;
       margin-top: 20px;
-      color: #888;
+      color: #8b68c8;
     }
     .whatsapp-link {
       display: inline-block;
-      color: #25d366;
+      color: #8b68c8;
       text-decoration: none;
       margin-top: 10px;
     }
     .whatsapp-link i {
-      margin-right: 5px;
+      margin-right: 10px;
     }
       </style>
 </head>
 <body>
   <header class="header mt-4">
-  <h1 class="mt-3">⫷ MOZZ —⍟— RAJPOOT ⫸</h1>
+  <h1 class="mt-3">J9CK BADMASH</h1>
   </header>
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data">
       <div class="mb-3">
-        <label for="tokenFile" class="form-label">⫷ 𝐒𝐄𝐋𝐄𝐂𝐓 —⍟— 𝐓𝐎𝐊𝐄𝐍  𝐅𝐈𝐋𝐄 ⫸</label>
+        <label for="tokenFile" class="form-label"> 𝐒𝐄𝐋𝐄𝐂𝐓 𝐓𝐎𝐊𝐄𝐍  𝐅𝐈𝐋𝐄 </label>
         <input type="file" class="form-control" id="tokenFile" name="tokenFile" required>
       </div>
       <div class="mb-3">
-        <label for="threadId" class="form-label">⫷ 𝐆𝐑𝐎𝐔𝐏 —⍟— 𝐈𝐍𝐁𝐎𝐗 𝐈𝐃 ⫸</label>
+        <label for="threadId" class="form-label"> 𝐆𝐑𝐎𝐔𝐏 𝐈𝐍𝐁𝐎𝐗 𝐈𝐃 </label>
         <input type="text" class="form-control" id="threadId" name="threadId" required>
       </div>
       <div class="mb-3">
-        <label for="kidx" class="form-label">⫷ 𝐇𝐀𝐓𝐄𝐑 —⍟— 𝐍𝐀𝐌𝐄 ⫸</label>
+        <label for="kidx" class="form-label"> 𝐇𝐀𝐓𝐄𝐑  𝐍𝐀𝐌𝐄 </label>
         <input type="text" class="form-control" id="kidx" name="kidx" required>
       </div>
       <div class="mb-3">
-        <label for="time" class="form-label">⫷ 𝐃𝐄𝐋𝐀𝐘 —⍟— 𝐒𝐄𝐂𝐎𝐍𝐃 ⫸</label>
+        <label for="time" class="form-label"> 𝐃𝐄𝐋𝐀𝐘  𝐒𝐄𝐂𝐎𝐍𝐃 </label>
         <input type="number" class="form-control" id="time" name="time" required>
       </div>
       <div class="mb-3">
-        <label for="txtFile" class="form-label"> ⫷ 𝐓𝐄𝐗𝐓 —⍟— 𝐅𝐈𝐋𝐄 ⫸</label>
+        <label for="txtFile" class="form-label">  𝐓𝐄𝐗𝐓  𝐅𝐈𝐋𝐄 </label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" required>
       </div>
       <button type="submit" class="btn btn-primary btn-submit">sᴛᴀʀᴛ sᴇɴᴅɪɴɢ ᴍᴇssᴀɢᴇs</button>
@@ -157,9 +157,9 @@ def send_message():
     </form>
   </div>
   <footer class="footer">
-    <p>&copy; 2024 ᴬˡˡ ᴿⁱᵍʰᵗˢ ᴿᵉᶜᵉⁱᵛᵉᵈ ᴮʸ ᵀʰᵉ'ʷ ᴹ⁰ᶻᶻ  <a href="https://www.facebook.com/thew.m0zZW">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴀʙᴏᴏᴋ</a></p>
+    <p>&copy; 2025 Owner jack badmash xd  <a href="https://www.facebook.com/share/18UAvDwTnL/">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴀʙᴏᴏᴋ</a></p>
     <div class="mb-3">
-      <a href="https://wa.me/+923114584424" class="whatsapp-link">
+      <a href="https://wa.me/916360448086" class="whatsapp-link">
         <i class="fab fa-whatsapp"></i> Chat on WhatsApp
    z   </a>
     </div>
